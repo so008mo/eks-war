@@ -17,7 +17,7 @@ spec:
         app: nginx-service
     spec:
       containers:
-      - image: nginx:1.22
+      - image: nginx:1.23.1
         imagePullPolicy: "Always"
         name: bnpl-service
         resources:
